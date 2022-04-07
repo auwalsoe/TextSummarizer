@@ -28,7 +28,7 @@ def common_words(c1,c2):
     return c3
 
 def rank(nodes,edges):
-    '''Return a dicitionary containing the scores for each vertex.'''
+    '''Return a dictionary containing the scores for each vertex.'''
     graph=nx.diamond_graph()
     graph.add_nodes_from(nodes)
     graph.add_weighted_edges_from(edges)
